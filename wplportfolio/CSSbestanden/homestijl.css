@@ -1,0 +1,689 @@
+/* hoofding*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+h1,h2{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+img{
+    width: 15%;
+}
+/* navigatie bar*/
+.navigatie{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+}
+.nav-bar{
+    width: 90%;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.nav-bar ul li{
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.nav-bar ul li a{
+    padding: 16px;
+}
+.nav-bar ul li a:hover{
+    background-color: #16e0bd;
+}
+.title h1{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+/*
+Drop down logboek
+
+ */
+.dropDown-content{
+    position: absolute;
+    display: none;
+    background-color: #2ecc71;
+    flex-direction: column;
+    width: 115px;
+    text-align: center;
+}
+.dropDown-content a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.introductie{
+    background-image: url("../Assets/cool-background(1).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 615px;
+    text-align: center;
+    
+}
+.mijn-profiel-img{
+   margin-top: 5%;
+    width: 15%;
+    cursor: pointer;
+}
+.mijn-profiel-img:active{
+    border: 4px solid rebeccapurple;
+
+}
+.introductie h1{
+
+   margin-top: 5%;
+    font-size: 3rem;
+    background-color: #dfd9d5;
+    color: #000000;
+}
+.introductie h1:hover{
+    transform: translateY(-20px);
+}
+
+.introductie p{
+    margin-top: 35px;
+   background-color: #dfd9d5;
+    color: #000000;
+    word-spacing: 2px;
+}
+
+/*Over mij */
+.overmij{
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    margin: 20px auto 20px auto;
+    line-height: 25px;
+}
+.overmij h2{
+    font-weight: lighter;
+    font-size: 150%;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+}
+.overmij p{
+    font-size: 100%;
+    word-spacing: 5px;
+}
+.overmij img{
+    width: 110%;
+    margin-top: 30px;
+    box-shadow: 0 3px 10px;
+}
+/* table*/
+.achtergrondkleur{
+
+    background-image: url("../Assets/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 373px;
+}
+.sectie table{
+    height: 260px;
+
+}
+table{
+    width: 98%;
+    margin: 5% auto 0 auto;
+
+    color: #000000;
+border-collapse: collapse;
+}
+
+caption{
+    font-weight: lighter;
+    font-size: 150%;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+thead{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 110%;
+}
+thead tr
+{
+    background-color: #8787c4;
+}
+tbody tr:nth-child(even)
+{
+    background-color: #8787c4;
+    padding-left: 15px;
+}
+thead tr th {
+    padding-left: 15px;
+}
+tbody tr td{
+    padding-left: 15px;
+}
+/* Werk images*/
+.werk-images{
+    margin-top: 100px;
+    text-align: center;
+}
+.eerste.set img{
+
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.set img{
+    width: 150px;
+}
+.tweede.set img{
+
+    margin-right: 30px;
+    box-shadow: 0 3px 5px;
+}
+.set img:hover{
+    opacity: 0.5;
+}
+
+/* sectie opleidingen*/
+.opl-sub{
+    margin-top: 50px;
+}
+.kolom-één{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.kolom-één ul:nth-child(1) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 0 25px 0 0;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-één ul:nth-child(2) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 0 0 0 25px;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-één ul:nth-child(1):hover
+{
+    background-color: white;
+}
+.kolom-één ul:nth-child(2):hover
+{
+    background-color: white;
+}
+.kolom-twee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kolom-twee ul:nth-child(1) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 30px 25px 0 0;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-twee ul:nth-child(2) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 30px 0 0 25px;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-twee ul:nth-child(1):hover{
+    background-color: white;
+}
+.kolom-twee ul:nth-child(2):hover{
+    background-color: white;
+}
+.kolom-drie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kolom-drie ul:nth-child(1) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 30px 25px 0 0;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-drie ul:nth-child(2) {
+    background-color: rgba(197, 197, 236, 0.98);
+    list-style-type: square;
+    width: 30%;
+    margin: 30px 0 0 25px;
+    padding: 25px 25px 25px 45px;
+    box-shadow: 0 3px 10px;
+}
+.kolom-drie ul:nth-child(1):hover{
+    background-color: white;
+}
+.kolom-drie ul:nth-child(2):hover{
+    background-color: white;
+}
+.opledingen h3 {
+    display: inline-block;
+    padding: 45px;
+    background: purple;
+    margin: 13px 0 0 25px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px;
+}
+.opledingen h3:hover{
+    transform: translateY(15px);
+}
+
+/*Sectie werk ervating */
+section h3{
+    display: inline-block;
+    padding: 45px;
+    background: purple;
+    margin: 13px 0 0 25px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px;
+}
+
+.ervaring {
+    background-color: #dfd9d5;
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+ul.winkelbediende{
+    width: 20%;
+    margin-bottom: auto;
+    margin-top: 120px;
+    padding: 35px 20px 35px 30px;
+    background: white;
+    line-height: 25px;
+    margin-right: 20px;
+
+}
+ul.winkelbediende:hover{
+    background: #3b3939;
+    color: #ffffff;
+}
+.winkelbediende h5{
+font-size: 1.2rem;
+font-weight: lighter;
+text-transform: uppercase;
+}
+ul.arbeider{
+    width: 20%;
+    margin-top: 120px;
+    margin-left: 35px;
+    margin-bottom: auto;
+    padding: 35px 20px 35px 30px;
+    background-color: white;
+    line-height: 25px;
+}
+ul.arbeider:hover{
+    background: #3b3939;
+    color: #ffffff;
+}
+.arbeider h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+ul.administratief-bediende{
+    width: 20%;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: auto;
+    padding: 35px 20px 35px 30px;
+    background-color: white;
+    line-height: 25px;
+}
+ul.administratief-bediende:hover{
+    background: #3b3939;
+    color: #ffffff;
+}
+.administratief-bediende h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+ul{
+    word-wrap: anywhere;
+}
+
+.footer-container{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 325px;
+    line-height: 25px;
+    margin: 100px 0 0 0;
+
+}
+.footer-sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+
+}
+.footer-sub-container h2{
+    margin-top: 100px;
+}
+.footer-sub-container a:hover{
+    color: red;
+}
+.footer-sub-container a:active{
+    color: blueviolet;
+}
+
+/*  media query min width 480px and max width */
+@media screen and (min-width: 600px) and (max-width:900px ) {
+
+    .navigatie {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        background: #ffffff;
+        width: 100%;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar ul li {
+        border-left: 40px solid black;
+    }
+
+    .nav-bar ul li a {
+        color: #000000;
+    }
+
+    .introductie {
+        height: 500px;
+    }
+
+    .introductie h1:hover {
+        transform: none;
+    }
+
+    .introductie p:hover {
+        transform: none;
+    }
+
+    .introductie h1 {
+        font-size: 2rem;
+    }
+
+    .overmij {
+        width: 60%;
+        margin-top: -40px;
+    }
+
+    .overmij img {
+        width: 100%;
+    }
+
+    /* ervaring */
+    .ervaring-sub {
+
+    }
+
+    .kolom-één ul:nth-child(1) {
+        width: 45%;
+        margin: 0 0 0 0;
+    }
+
+    .kolom-één ul:nth-child(1) {
+        width: 45%;
+        margin: 0 0 0 32px;
+    }
+
+    .kolom-drie ul:nth-child(1) {
+
+        margin: 30px 0 0 0;
+    }
+
+    .kolom-drie ul:nth-child(2) {
+        width: 50%;
+        margin: 30px 0 0 56px;
+    }
+
+    ul.winkelbediende {
+        width: 31%;
+        margin-right: 0;
+        font-size: .8rem;
+        line-height: 16px;
+    }
+
+    ul.arbeider {
+
+        width: 30%;
+        margin-left: 20px;
+        font-size: .8rem;
+        line-height: 16px;
+    }
+
+    ul.administratief-bediende {
+        width: 30%;
+        margin-left: 20px;
+        font-size: .8rem;
+        line-height: 16px;
+    }
+
+    ul.winkelbediende h5 {
+        font-size: 1rem;
+
+    }
+
+    ul.arbeider h5 {
+        font-size: 1rem;
+    }
+
+    ul.administratief-bediende h5 {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 600px)
+{
+    .navigatie {
+        flex-direction: column;
+    }
+    .nav-bar {
+        background: #ffffff;
+        width: 100%;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar ul li {
+        border-left: 40px solid black;
+    }
+
+    .nav-bar ul li a {
+        color: #000000;
+    }
+
+    .introductie h1 {
+        font-size: 2rem;
+    }
+
+    .overmij {
+        margin-top: -320px;
+        width: 400px;
+    }
+
+    .overmij img {
+        width: 70%;
+        margin-left: 70px;
+    }
+    .kolom-één ul:nth-child(1) {
+        width: 45%;
+    }
+    .kolom-één ul:nth-child(2) {
+        width: 45%;
+        margin: 0 0 0 0;
+    }
+    .kolom-twee ul:nth-child(1){
+        width: 45%;
+    }
+    .kolom-twee ul:nth-child(2){
+        width: 45%;
+        margin: 30px 0 0 0;
+    }
+.kolom-drie ul:nth-child(1){
+    width: 45%;
+}
+.kolom-drie ul:nth-child(2){
+    width: 45%;
+    margin: 30px 0 0 0;
+}
+    .ervaring{
+        flex-direction: column;
+    }
+    ul.winkelbediende{
+        width: 80%;
+        margin: 10px 0 0 10%;
+    }
+    ul.arbeider{
+        width: 80%;
+        margin: 10px 0 0 10%;
+    }
+    ul.administratief-bediende{
+        width: 80%;
+        margin: 10px 0 0 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navigatie{
+        flex-direction: column;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+    }
+    .mijn-profiel-img:hover{
+        width: 0;
+    }
+    .mijn-profiel-img{
+        width: 20%;
+    }
+    .introductie h1:hover{
+        transform: translateY(0px);
+    }
+    .introductie p:hover{
+        transform: translateY(0px);
+    }
+    .introductie h1 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .overmij {
+        width: 400px;
+        margin: -400px auto 20px auto;
+        text-align: center;
+    }
+    .overmij img{
+       width: 70%;
+        margin: 30% auto;
+    }
+    .achtergrondkleur{
+        background-image: none;
+
+    }
+    .kolom-één, .kolom-twee, .kolom-drie{
+        flex-direction: column;
+    }
+    .kolom-één ul:nth-child(1){
+        width: 90%;
+        margin: 0 0 0 25px;
+    }
+    .kolom-één ul:nth-child(2){
+        width: 90%;
+        margin: 25px 0 0 25px;
+}
+    .kolom-twee ul:nth-child(1){
+        width: 90%;
+        margin: 25px 0 0 25px;
+    }
+    .kolom-twee ul:nth-child(2){
+     width: 90%;
+    margin: 25px 0 0 25px;
+}
+    .kolom-drie ul:nth-child(1){
+        width: 90%;
+        margin: 25px 0 0 25px;
+    }
+    .kolom-drie ul:nth-child(2)
+    {
+        width: 90%;
+        margin: 25px 0 0 25px;
+    }
+    .sectie-werkervaring{
+        margin-top: 50px;
+    }
+    .ervaring{
+        flex-direction: column;
+        height: 150vh;
+    }
+    ul.winkelbediende{
+        width: 90%;
+        margin: 35px auto 25px auto;
+
+    }
+    ul.arbeider{
+        width: 90%;
+        margin: 35px auto 25px auto;
+    }
+    ul.administratief-bediende{
+        width: 90%;
+        margin: 35px auto 25px auto;
+    }
+}
+
+/*social media */
+.socialMedia{
+    text-align: center;
+    padding: 25px;
+}
+.socialMedia a img{
+    width: 25px;
+    cursor: pointer;
+}

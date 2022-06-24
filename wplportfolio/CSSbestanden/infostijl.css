@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+
+    background: #ffffff;
+    color: #303030;
+    margin: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.25rem }
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+.section__title--intro {
+    font-weight: 300;
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+
+    font-size: 1.25rem;
+    text-align: right;
+    width: 50%;
+    margin-top: -35px;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: #16e0bd;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1em;
+}
+/* header */
+
+header{
+    text-align: right;
+}
+.terug-button{
+    width: 250px;
+    background: #16e0bd;
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.terug-button:active{
+    color: red;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+footer > a{
+    margin-left: 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+

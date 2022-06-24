@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+
+    background: #ffffff;
+    color: #303030;
+    margin: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+header{
+    text-align: right;
+}
+.terug-button{
+    width: 250px;
+    background: #16e0bd;
+    color: black;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}

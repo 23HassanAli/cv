@@ -1,0 +1,529 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato', SansSerif;
+}
+ nav img {
+     display: inline;
+        width: 80px;
+        height: 80px;
+    }
+ img{
+     width: 12%;
+
+ }
+ .introductie h1{
+     font-size: 1.5rem;
+ }
+    nav {
+        display: flex;
+        font-size: 1.3rem;
+        margin: 0 auto;
+
+        width: 80vw;
+    }
+
+    .nav-bar {
+        display: flex;
+        background-color: #03466e;
+        color: #ffffff;
+        width: 70vw;
+        justify-content: space-between;
+        text-align: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar > a:nth-child(6) {
+        margin-right: 20px;
+    }
+    div.nav-bar a{
+        padding:32px;
+    }
+
+    .nav-bar a:hover {
+        border-bottom: 2px solid white;
+    }
+
+    before,
+    after {
+        content: '';
+        position: absolute;
+        height: 100px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #dfd9d5;
+        transform: skewY(-3deg);
+        -webkit-transform: skewY(-3deg);
+        -moz-transform: skewY(-3deg);
+        -ms-transform: skewY(-3deg);
+    }
+    .introductie{
+        margin: 0 auto;
+        height: 207px;
+        background: lightgreen;
+    }
+
+    .mijn-profiel-img{
+        float: left;
+    }
+    .image img:active {
+        border-color: black;
+        width: 180px;
+        cursor: pointer;
+    }
+
+    main {
+        margin: auto;
+        text-align: center;
+        width: 590px;
+        background: #dfd9d5;
+        box-shadow: 0 3px 10px;
+    }
+
+    main h3 {
+        font-size: 1.8rem;
+        margin: 15px 0 10px -53px;
+        display: inline;
+        position: absolute;
+
+
+    }
+
+    main p {
+
+        text-space: .5rem;
+        font-family: Arial, sans-serif;
+        padding: 50px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    table {
+        margin-top: 40px;
+        margin-left: 174px;
+        width: 74vw;
+        border-collapse: collapse;
+    }
+
+    table caption {
+        font-size: 2rem;
+        text-align: right;
+    }
+
+    table thead {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    table tbody {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    table th, td {
+        border: 20px solid #dfd9d5;
+        border-radius: 20px;
+        padding: 10px 10px;
+    }
+tbody tr td:nth-child(even){
+    background: lightgoldenrodyellow;
+}
+    tbody tr td i {
+        margin-right: 15px;
+    }
+
+    article {
+        margin-top: -56px;
+        margin-left: 30px;
+    }
+
+
+    .zwarteLijn {
+        width: 36vw;
+        height: 1vh;
+        background: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+
+    .zwarteLijn:hover {
+        transform: translateY(-15px);
+    }
+
+    .opl {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .één {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    article p:nth-child(1) {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        margin-top: 100px;
+        margin-right: 221px;
+        text-align: right;
+        font-size: 2rem;
+    }
+
+    span.paars1 {
+        width: 33vw;
+        background: #03466e;
+        height: 8vh;
+        box-shadow: 5px 5px black;
+    }
+
+    span.paars1:hover {
+        transform: translateX(-15px);
+    }
+
+    span.paars2 {
+        display: block;
+        width: 33vw;
+        background: #03466e;
+        height: 8vh;
+        box-shadow: 5px 5px black;
+    }
+
+    span.paars2:hover {
+        transform: translateX(15px);
+    }
+
+    div.één ul {
+        background: #dfd9d5;
+        list-style-type: square;
+        box-shadow: 0 3px 10px;
+    }
+
+    div.twee ul {
+        background: #dfd9d5;
+        list-style-type: square;
+        box-shadow: 0 3px 10px;
+        word-wrap: break-word;
+    }
+
+    div.één ul:nth-child(2) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    div.één ul:nth-child(3) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    div.één ul:nth-child(4) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    div.twee ul:nth-child(2) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    div.twee ul:nth-child(3) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    div.twee ul:nth-child(4) {
+        margin-top: 15px;
+        width: 31vw;
+        padding: 18px 0px 15px 35px;
+    }
+
+    article p:nth-child(3) {
+        text-transform: uppercase;
+        margin-top: 100px;
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    /*Hover effect op de list*/
+    div.één ul:nth-child(2):hover {
+        transform: translateX(-20px);
+    }
+
+    div.één ul:nth-child(3):hover {
+        transform: translateX(-20px);
+    }
+
+    div.één ul:nth-child(4):hover {
+        transform: translateX(-20px);
+    }
+div.twee ul:nth-child(2):hover{
+     transform: translateX(20px);
+ }
+div.twee ul:nth-child(3):hover{
+    transform: translateX(20px);
+}
+div.twee ul:nth-child(4):hover{
+    transform: translateX(20px);
+}
+
+    /**/
+    .werkervaring {
+        display: flex;
+        justify-content: space-around;
+        height: 150px;
+    }
+
+    .werkervaring ul {
+        background: #dfd9d5;
+        box-shadow: 0 3px 10px;
+    }
+
+    .werkervaring ul:nth-child(1) {
+        width: 30vw;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .werkervaring ul:nth-child(1) {
+        transform: translateY(-15px);
+    }
+
+    .werkervaring ul:nth-child(2) {
+        width: 30vw;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .werkervaring ul:nth-child(3) {
+        width: 30vw;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .werkervaring ul:nth-child(3) {
+        transform: translateY(-15px);
+    }
+
+    footer {
+        margin: 25px 0 0;
+    }
+
+    .footer {
+        background-color: #03466e;
+        display: flex;
+        justify-content: space-evenly;
+        height: 74px;
+    }
+
+    .footer p, a {
+        padding: 30px;
+        color: white;
+        font-size: medium;
+    }
+
+    .footer a {
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        font-size: large;
+        border: 1px solid white;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+    }
+/*Hover voor lijst */
+thead tr th:hover{
+    background: red;
+}
+
+@media (max-width: 480px) {
+    nav{
+        margin: 0;
+    }
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    .nav-bar a{
+        padding: 5px;
+    }
+    .nav-bar > a:nth-child(6)
+    {
+        margin-right: 0;
+    }
+    div.image{
+        background: none;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+    main{
+        margin-top: 20px;
+        width: 477px;
+    }
+    main h3{
+        text-align: left;
+    }
+    main p{
+        margin: 0 0 0 50px;
+        font-size: .8rem;
+        width: 82vw;
+        line-height: 20px;
+        padding: 53px;
+    }
+    .mzwartelijn{
+        height: 5px;
+        width: 100vw;
+        margin: 15px 0 0 0;
+    }
+    table{
+            margin: 0;
+        width: 0;
+    }
+    table caption{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 27px 2px 10px 40px;
+    }
+    table th, td{
+        border: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    thead tr th:nth-child(3){
+        padding-left: 50px;
+    }
+    table thead{
+        font-size: 1.2rem;
+    }
+    table tbody{
+        font-size: 1rem;
+    }
+    thead tr th:nth-child(1){
+        padding-left: 15px;
+    }
+    thead tr th:nth-child(1){
+        padding-left: 65px;
+    }
+    tbody tr td:nth-child(1){
+        padding-left: 15px;
+        padding-top: 13px;
+    }
+    tbody tr td:nth-child(2)
+    {
+        padding-left: 10px;
+    }
+    tbody tr td:nth-child(3){
+        padding-left: 68px;
+    }
+    div.zwarteLijn{
+        margin-top: 5vh;
+    }
+    article p:nth-child(1){
+        font-size: 1.5rem;
+    }
+    div.één ul:nth-child(2){
+        width: 35vw;
+        padding-right: 22px;
+    }
+    div.één ul:nth-child(3){
+        width: 35vw;
+        padding-right: 22px;
+    }
+    div.één ul:nth-child(4){
+        width: 35vw;
+        padding-right: 22px;
+    }
+    div.twee ul:nth-child(2)
+    {
+        margin-left: 40px;
+        width: 40vw;
+    }
+    div.twee ul:nth-child(3)
+    {
+        margin-left: 40px;
+        width: 40vw;
+    }
+    div.twee ul:nth-child(4)
+    {
+        margin-left: 40px;
+        width: 40vw;
+    }
+    .twee > ul:nth-child(4) > li:nth-child(2) {
+        word-wrap: break-word;
+    }
+    article p:nth-child(3){
+    margin-top: -45px;
+         }
+    span.paars1{
+        visibility: collapse;
+    }
+    span.paars2{
+        visibility: collapse;
+    }
+    div.werkervaring{
+        flex-direction: column;
+        height: 64vh;
+    }
+    .werkervaring ul:nth-child(1)
+    {
+        width: 423px;
+        padding-bottom: 25px;
+        transform: translateX(0);
+    }
+    .werkervaring ul:nth-child(2)
+    {
+        width: 423px;
+        padding-bottom: 25px;
+    }
+    .werkervaring ul:nth-child(3)
+     {
+         width: 423px;
+         padding-bottom: 25px;
+        transform: translateX(0);
+     }
+    footer a:hover{
+       font-size: large;
+        border: 0;
+
+    }
+
+}
+@media screen and (min-width: 480px) {
+        table{
+            margin-left: 34px;
+        }
+    nav{
+        min-width: 407px;
+    }
+    .image{
+        min-width: 407px;
+    }
+    main{
+        min-width: 590px;
+    }
+}
+
